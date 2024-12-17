@@ -1,11 +1,11 @@
 import axios from "axios";
 
 // export const API = "http://localhost:5001/";
-export const API = "https://backend-api-jc-production.up.railway.app/";
+export const API = "https://backend-hotel-bookingpriya-4.onrender.com/";
 
 const api = axios.create({
   // baseURL: "http://localhost:5001/",
-  baseURL: "https://backend-api-jc-production.up.railway.app/",
+  baseURL: "https://backend-hotel-bookingpriya-4.onrender.com/",
 });
 
 api.interceptors.request.use(
